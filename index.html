@@ -1,0 +1,26 @@
+<html>
+    <title>World Facts</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <body>
+
+        <object id="world-svg" width=600 height=300 id="svg-object" data="./world.svg" type="image/svg+xml"></object>
+        <div id="infoBox"></div>
+
+        <div class="countryInformation hidden">
+          <div id="countryClose"> <div id="countryX"></div></div> 
+          <div id="countryHeader">
+            <h1 id="countryName"></h1>
+            <span id=countryLocalName></span><br>
+            <span id="countryType"></span>
+          </div>
+          <div id="countryData">
+            Capital: <span id="capital"></span><br>
+            Population: <span id="population"></span><br>
+            GDP: <span id="GDP"></span> USD<br>
+          </div>
+        </div>
+
+        <script type="module" src="./world.js"></script>
+    </body>
+</html>

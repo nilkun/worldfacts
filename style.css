@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.countryInformation {
+    position: absolute;
+
+    color: rgb(50, 50, 50);
+    left: 30vw;
+    top: 15vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    display: flex row;
+    width: 40vw;
+    /* height: 50vh; */
+    background-color: lightblue;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 5px;
+}
+#countryClose {
+    /* padding-left: 3px; */
+    height: 14px;
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+#countryX {
+    height: 10px;
+    line-height: 10px;
+    width: 10px;
+
+    margin-left: 2px;
+    margin-top: 2px;
+    position: relative;
+    background-color: red;
+    
+    text-align: left;
+    
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 50%;
+}
+#countryHeader {
+    width: 100%;
+    background:white;
+    text-align: center;
+    padding: 3px;
+
+    border-bottom: 1px solid rgb(50, 50, 50);
+}
+#countryType {
+    font-size: 0.5em;
+}
+#countryLocalName {
+    font-style: italic;
+}
+
+#countryData {
+    padding: 10px;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+}
+
+#world-svg {
+    position: relative;
+    left: 5vw;
+    width: 90vw;
+    height: 45vw
+}
+
+.hidden {
+    display: none;
+}
